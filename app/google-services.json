@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "702836115206",
+    "project_id": "assignment2-android",
+    "storage_bucket": "assignment2-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702836115206:android:d4ec30fb41927ca6650087",
+        "android_client_info": {
+          "package_name": "rmit.aad.week5_maplocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702836115206-oreer8uvkdgd1ff8rhms8ilve16nk6oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoeZCvvbiwS4yI158dEb8u0jCjUU-UfBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702836115206-oreer8uvkdgd1ff8rhms8ilve16nk6oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

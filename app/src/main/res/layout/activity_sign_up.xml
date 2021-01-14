@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp">
+
+        <CheckBox
+            android:id="@+id/cxMale"
+            android:layout_width="5dp"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="Male" />
+
+        <CheckBox
+            android:id="@+id/cxFemale"
+            android:layout_width="5dp"
+            android:layout_height="84dp"
+            android:layout_weight="1"
+            android:text="Female" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tEmail"
+        android:layout_width="187dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/tPassword"
+        android:layout_width="187dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/tEmail"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/tRePassword"
+        android:layout_width="187dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:layout_below="@+id/tPassword"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="187dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="50dp"
+        android:text="Add"
+        android:layout_below="@+id/tRePassword"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/createTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="50dp"
+        android:text="Already Registered ? Login Here"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

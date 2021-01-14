@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is the Profile page:"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnLogout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In this profile page, It allows user to display their personal information such as Image, Phone number, address, Date of Birth.
+         Furthermore, they can insert their favorite colors, hobbies. The user can update their relationship status.
+        In this assignment, students are required to build a location-based Android app that guides users to find a clean up site. The app should provide the following functionality:
+
+        A map view that shows nearby all available clean up sites. The number of sites to be shown will depend on the zoom level and camera view. Students are free to build their own rules. Customized markers should be used (not the default provided by Android). Be creative. When users click on a site, detailed info of the site should be displayed.
+        Users should be able to filter/search sites based on criteria.
+        Users can join a site by creating an account and sign in
+        Users can create new site and be admin of that site. As the admin of the site, user can see the list of people who sign up for the site.
+        There should be notifications to users when there is changes in a site
+        Super user of the app can see all sites.
+        Can find routes from current user location to the site"
+        android:textSize="14dp"
+        android:layout_below="@+id/txtTitle"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="logout"
+        android:text="Logout" />
+
+</RelativeLayout>
